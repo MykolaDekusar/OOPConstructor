@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Car car = new Car("I20N");
+            Car hyundai = new Car("Hyundai","I20N");
             Console.ReadKey();  
         }
     }

@@ -9,9 +9,12 @@ namespace OOPConstructor
     internal class Car
     {
         private string _modello = "";
-        public Car(string modello) {
+        private string _brand = "";
+        //constructor
+        public Car(string brand, string modello) {
             _modello = modello;
-            Console.WriteLine("Ho creato una macchina con il modello: "+ _modello);
+            _brand = brand;
+            Console.WriteLine($"Ho creato una macchina {_brand} {_modello}");
         }
     }
 }
