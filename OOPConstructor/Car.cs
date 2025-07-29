@@ -10,11 +10,16 @@ namespace OOPConstructor
     {
         private string _modello = "";
         private string _brand = "";
+        //proprietà
+        public string Modello { get => _modello; set => _modello = value; }
+        public string Brand { get => _brand; set => _brand = value; }
         //constructor
         public Car(string brand, string modello) {
-            _modello = modello;
-            _brand = brand;
-            Console.WriteLine($"Ho creato una macchina {_brand} {_modello}");
+            Modello = modello;
+            Brand = brand;
+            Console.WriteLine($"Ho creato una macchina {Brand} {Modello}");
         }
+
+        
     }
 }
