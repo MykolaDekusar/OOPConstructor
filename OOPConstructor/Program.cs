@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Car car = new Car("I20N");
+            Console.ReadKey();  
         }
     }
 }
