@@ -31,5 +31,12 @@ namespace OOPConstructor
             Name = name;
             Console.WriteLine($"Aggiunto cliente {Name} con indirizzo sconosciuto e telefono sconosciuto");
         }
+        //Default constructor
+        public Customer() {
+            Name = "Unknown";
+            Address = "Unknown";
+            Number = "Unknown";
+        }
+
     }
 }
