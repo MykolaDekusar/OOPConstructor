@@ -47,7 +47,22 @@ namespace OOPConstructor
             Luxury = luxury;
             Console.WriteLine($"Ho creato una macchina {Brand} {Modello}");
         }
+        //Aggiungo altri costruttori che prendono solo brand e modello e solo brand
+        public Car(string brand, string modello)
+        {
+            Modello = modello;
+            Brand = brand;
+            Console.WriteLine($"Ho creato una macchina {Brand} {Modello}");
+        }
 
-        
+        public Car( string  brand)
+        {
+            Brand = brand;
+            Console.WriteLine($"Ho creato una macchina {Brand}");
+        }
+
+
+
+
     }
 }
